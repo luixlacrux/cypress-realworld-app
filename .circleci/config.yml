@@ -75,7 +75,7 @@ linux-workflow: &linux-workflow
         store_artifacts: true
         yarn: true
         start: yarn start:ci
-        record: true
+        # record: true
         parallel: true
         parallelism: 4
         ci-build-id: ${CIRCLE_SHA1:0:8}
